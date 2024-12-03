@@ -113,3 +113,260 @@ width: 100%;
     color: white;
     background: linear-gradient(278.21deg, #005490 1.66%, #328BCB 96.78%);
 }
+
+.sponsors{
+    width: 80%;
+    display: flex;
+    gap: 5rem;
+
+    margin:auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    align-items: center;
+}
+.post{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.sponsors img{
+    width: 100%;
+
+}
+
+.postimage img{
+    width:100%;
+}
+.postimage{
+    width: 40%;
+}
+.posttext{
+    width: 40%;
+}
+.posttext h3{
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.30000001192092896px;
+    color: #034D82;
+    width: 85%;
+
+}
+.posttext p{
+    font-family: DM Sans;
+font-size: 16px;
+font-weight:400;
+line-height: 32px;
+color: #04AADD;
+text-decoration: none;
+}
+.iphone{
+    position: absolute;
+}
+.arrow{
+    position: relative;
+    z-index:-2;
+}
+
+.schedule{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 10rem;
+    
+    
+}
+.schedule p{
+    width: 485px;
+    height: 64px;
+    top: 2154.28px;
+    left: 140px;
+    gap: 0px;
+    opacity: 0px;
+    
+
+
+}
+.scheduleText{
+    width: 45%;
+    
+}
+.scheduleText h3{
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+letter-spacing: 0.30000001192092896px;
+color: #034D82;
+
+}
+
+.scheduleText p{
+    font-family: DM Sans;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    letter-spacing: 0.30000001192092896px;
+    color: #90A3B4;
+    width: 100;
+
+}
+
+.scheduleText a{
+    width: 243px;
+    height: 21px;
+    top: 2410px;
+    left: 140px;
+    color: #04AADD;
+
+}
+
+
+.scheduleImage img {
+    width: 100%;
+    
+}
+
+.scheduleImage{
+    width: 40%;
+
+}
+
+
+
+
+.hashtag{
+    background-color: #EFFBFF;
+    padding: 4rem 0rem;
+    margin-top: 5rem;
+    
+}
+.tophashtag{
+    text-align: center;
+}
+.tophashtag h2{
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #034D82;
+    letter-spacing:0.30000001192092896px;
+    }
+.tophashtag p{
+font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 32px;
+color:  #8EA9C1;
+padding: 1rem 0;
+width: 45% ;
+margin: auto;
+}
+.cardwrap{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    /* margin-top: 2rem; */
+    height: 60vh;
+}
+.card{
+    background: white;
+    padding: 1rem 1rem 3rem 1rem;
+    height: 300px;
+    border-radius: 8px;
+    width: 100;
+    overflow: hidden;
+}
+.card:hover{
+background-color: #005490;
+color: white;
+transform: scale(1.1);
+transition: 0.5s;
+border-radius: 8px;
+}
+.card h5{
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 34px;
+    /* color: rgba(3, 77, 130, 1); */
+    padding: 1rem 0;
+}
+
+.card p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    /* color: rgba(144, 163, 180, 1) */
+    padding-right: 1rem;
+}
+
+.growth{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+    
+}
+
+.growthLeft h3 {
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #034D82;
+
+}
+
+.growthLeft p {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #90A3B4;
+    
+}
+
+
+.growthText p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #90A3B4;
+    font-style: italic;
+    margin-left: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.hart{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.hartName h5{
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 34px;
+    color: #034D82;
+}
+
+.hartName p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #90A3B4;
+}
+
+
