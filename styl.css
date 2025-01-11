@@ -30,10 +30,16 @@ nav{
     gap: 2rem;
     align-items: center;
 }
+.navBar{
+display: flex;
+justify-content: center;
+gap:3rem;
+}
 
 .ul{
     display: flex;
     gap: 2rem;
+
 
 }
 .navBar li a{
@@ -66,17 +72,26 @@ nav Button{
     margin-top: 7rem;
 }
 
-.TextSide{
+.textSide{
     margin-left: 6rem;
 }
 
-.TextSide h2{
+.textSide h2{
 font-family: DM Sans;
 font-size: 64px;
 font-weight: 700px;
 color: white;
 }
-.TextSide p{
+.textSide p{
+    font-family: DM Sans;
+    font-size: 16px;
+    color: white;
+    line-height:26px;
+    text-align: left;
+    width: 60%;
+
+}
+.textSide p{
     font-family: DM Sans;
     font-size: 16px;
     color: white;
@@ -86,7 +101,7 @@ color: white;
 
 }
 .curve img{
-width: 20%;
+    width: 20%;
 }
 .imageSide img{
 width: 100%;
@@ -102,12 +117,13 @@ width: 100%;
     font-weight: 500;
     line-height: 20.83px;
     text-align: center;
-    color: rgba(o, 168, 219, 1);
+    color: #00A8DB;
     background: white;
     border: none;
     cursor: pointer;
     padding: 1rem 1.5rem;
     border-radius: 4px;
+    width: 55%;
 }
 .demo button:hover{
     color: white;
@@ -131,21 +147,22 @@ width: 100%;
     width: 80%;
     margin: auto;
 }
+
 .sponsors img{
     width: 100%;
 
 }
 
-.postimage img{
+.postImage img{
     width:100%;
 }
-.postimage{
+.postImage{
     width: 40%;
 }
-.posttext{
+.postText{
     width: 40%;
 }
-.posttext h3{
+.postText h3{
     font-family: DM Sans;
     font-size: 36px;
     font-weight: 700;
@@ -155,7 +172,7 @@ width: 100%;
     width: 85%;
 
 }
-.posttext p{
+.postText p{
     font-family: DM Sans;
 font-size: 16px;
 font-weight:400;
@@ -165,6 +182,7 @@ text-decoration: none;
 }
 .iphone{
     position: absolute;
+    width: 40%;
 }
 .arrow{
     position: relative;
@@ -178,32 +196,19 @@ text-decoration: none;
     width: 80%;
     margin: auto;
     margin-top: 10rem;
-    
-    
+    margin-bottom: 6rem;   
 }
-.schedule p{
-    width: 485px;
-    height: 64px;
-    top: 2154.28px;
-    left: 140px;
-    gap: 0px;
-    opacity: 0px;
-    
 
-
-}
 .scheduleText{
-    width: 45%;
-    
+    width: 50%;
 }
-.scheduleText h3{
+.schedule h3{
     font-family: DM Sans;
     font-size: 36px;
     font-weight: 700;
-    line-height: 52px;
-letter-spacing: 0.30000001192092896px;
-color: #034D82;
-
+    line-height: 50px;
+    color: #034D82;
+    width: 80%;
 }
 
 .scheduleText p{
@@ -218,27 +223,33 @@ color: #034D82;
 }
 
 .scheduleText a{
+    font-family: DM Sans;
     width: 243px;
     height: 21px;
-    top: 2410px;
     left: 140px;
+    font-size: 16px;
+    font-weight: 600;
     color: #04AADD;
-
 }
 
+.scheduleText ul li{
+    color: #90A3B4;
+    font-family: DM Sans;
+    font-size: 16px;
+}
 
+.scheduleText ul li i{
+    color: #04AADD;
+    margin-right: 0.5rem;
+    text-decoration: none;
+}
 .scheduleImage img {
     width: 100%;
-    
 }
 
 .scheduleImage{
-    width: 40%;
-
+    width: 50%;
 }
-
-
-
 
 .hashtag{
     background-color: #EFFBFF;
@@ -246,10 +257,10 @@ color: #034D82;
     margin-top: 5rem;
     
 }
-.tophashtag{
+.topHashtag{
     text-align: center;
 }
-.tophashtag h2{
+.topHashtag h2{
     font-family: DM Sans;
     font-size: 36px;
     font-weight: 700;
@@ -257,7 +268,7 @@ color: #034D82;
     color: #034D82;
     letter-spacing:0.30000001192092896px;
     }
-.tophashtag p{
+.topHashtag p{
 font-family: DM Sans;
 font-size: 16px;
 font-weight: 400;
@@ -269,7 +280,7 @@ margin: auto;
 }
 .cardwrap{
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     align-items: center;
     width: 80%;
     margin: auto;
@@ -453,6 +464,9 @@ footer{
     color: #FFFFFF
 
 }
+.footLogo img{
+    width: 20%;
+}
 
 .footWrap{
 
@@ -518,5 +532,420 @@ margin-top: 1rem;
 
 }
 
+@media(max-width:1024px){
+    .textSide h2{
+        font-size: 54px;
+        }
+        .textSide p{
+            width: 85%;
+        
+        }  
+        .curve img{
+            width: 25%;
+        }
+        .demo button{
+            font-size: 16px;
+            width: 55%;
+        } 
+        .demo{
+            margin-bottom: 3rem;
+        }
+        .imageSide{
+            width: 50%;
+        }
+        .iphone{
+            width: 35%;
+        }
+        .postText{
+            width: 50%;
+        }
+        .postText h3{
+            width:100% ;
+
+        }
+        .postText p{
+            font-size: 12px;
+        }
+        .scheduleText{
+            width: 90%;
+        }
+        .scheduleText h3{
+            font-size: 30px;
+            width: 90%;
+        }
+        .scheduleText p{
+            width: 100%;
+            font-size: 12px;
+            line-height: 22px;
+        }
+        .scheduleText a{
+            font-size: 12px;
+        }
+        .scheduleText ul li{
+            font-size: 12px;
+
+        }
+        .scheduleImage{
+            width: 100%;
+            margin-top: 2rem;
+        }
+        .scheduleImage img{
+            width: 100%;
+        }
+        .topHashtag p{
+            width: 53%;
+        }
+
+        .cardWrap{
+            gap: 1rem;
+            height: 70vh;
+        }
+        .card{
+            height: 300px;
+            width: 100%;
+            
+        } 
+        .growthLeft h3 {
+            font-size: 26px;
+            width: 90%;
+        
+        }
+        .growthLeft p {
+            font-size: 16px;
+            width: 90%;
+        
+            
+        }
+        .brandRight button{
+            font-size: 12px;
+            width: 110%;
+        }
+        li{
+            font-size: 11px;
+            
+        }
+        .footRight h3{
+            font-size: 15px;
+            
+        }
+        .footLeft p{
+            font-size: 13px;
+            
+        }
+        .copyright p{
+            font-size: 13px;
+            
+        }
+}
+@media screen and (max-width: 768px) {
+    nav {
+        width: 100%;
+        gap: 1rem;
+    }
+    .navBar{
+        margin-bottom: -1rem;
+
+    }
+    .logo {
+        width: 30%;
+    }
+    .textSide{
+        margin-left: 4rem;
+    }
+    .textSide h2{
+        font-size: 34px;
+        width: 100%
+    }
+    .textSide p {
+        font-size: 13px;
+    }
+    .demo button {
+        font-size: 14px;
+        width: 100%;
+        padding: 0.7rem 1rem;
+    }
+    .postText h3{
+        font-size: 28px;
+        line-height: 40px;
+        width: 100%;
+
+    }
+    .postText p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        padding: 1rem 0rem;
+
+    }
+    .iphone{
+        width: 35%;
+    }
+    .schedule{
+        width: 80%;
+        margin: 6rem auto;
+    }
+    .scheduleText{
+        width: 55%;
+    }
+    .scheduleText h3{
+        font-size: 30px;
+        line-height: 45%;
+        color: #034D82;
+        width: 100%;
+    }
+    .scheduleText p{
+        font-size: 14px;
+        line-height: 30px;
+        width: 100%;
+    }
+    .scheduleText a{
+        width: 170px;
+        font-size: 14px;
+    }
+    .scheduleText ul li {
+        font-size: 14px;
+    }
+    .scheduleImage img{
+        width: 100%;
+    }
+    .topHashtag h2{
+        font-size: 28px;
+        line-height: 52px;
+
+    }
+    .topHashtag p{
+        font-size: 14px;
+        width: 65%;
+
+    }
+    .cardWrap{
+        gap: 1rem;
+        height: 80vh;
+    }
+    .card{
+        padding: 1rem;
+    }
+    .card h5 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .card p {
+        font-size: 13px;
+
+    }
+    .card img {
+        width: 40%;
+
+    }
+    .footRight{
+        gap: 2rem;
+        width: 70%;
+    }
+    li{
+        font-size: 12px;
+    }
+    .footRight h3{
+        font-size: 14px;
+    }
+    .copyright p{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 425px){
+    .footLogo img{
+        width: 100%;
+    }
+    nav{
+        display: none;
+    }
+    .hero{
+        flex-direction: column;
+        width: 85%;
+        margin: auto;
+        margin-top: 4rem;
+
+    }
+    .textSide{
+        margin-left: 0rem;
+        width: 100%;
+
+    }
+    .imageSide {
+        width: 100%;
+    }
+    .sponsors {
+        width: 30%;
+        margin: 3rem auto;
+        display: block;
+    }
+    .sponsors img{
+        padding-bottom: 2rem;
+    }
+    .post{
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+    }
+    .postImage {
+        width: 100%;
+    }
+    .postText{
+        width: 100%;
+    }
+    .iphone{
+        width: 80%;
+    }
+    .postText h3{
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 55px;
+        width: 100%;
+    }
+    .postText p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 32px;
+    }
+    .postText a{
+        font-size: 14px;
+    }
+    .schedule{
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: auto;
+        margin-top: 10rem;
+        
+        
+    }
+    .scheduleText{
+        width: 85%;
+        margin: 0 auto; 
+    }
+        
+    .scheduleText h3{
+        width: 90%;
+        line-height: 1.4;
+        text-align: center;
+        font-size: clamp(20px, 4vw, 30px);
+    }
+    .scheduleText p{
+        font-size: 16px;
+        width: 100%;
+
+    }
+    .topHashtag h3{
+        width: 100%;
+    }
+    .topHashtag p{
+        font-size: 14px;
+        width: 70%;
+
+    }
+    .cardWrap{
+        flex-direction: column;
+        width: 85%;
+        height: 60%;
+    }
+    .card{
+        width: 100%;
+        height: 250px;
+    }
+    .card:hover{
+        transform: scale(1);
+        transition: 0.5s;
+        border-radius: 8px;
+    }
+    .card img{
+        width: 20%;
+        padding-left: 1rem;
+    }
+    .card h5{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 34px;
+        padding: 1rem;
+    }
+    .card p{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        padding-right: 0 1rem;
+
+    }
+    .growth{
+        flex-direction: column;
+    }
+    .growthLeft{
+        margin-bottom: 2rem;
+    }
+    .growthLeft h3{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+    .growthText p{
+        font-size: 16px;
+        width: 100%;
+    }
+    .hart{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        margin-left: 3rem;
+
+    }
+    .hartImage {
+        width: 20%;
+    }
+    .hartName {
+        width: 65%;
+    }
+    .brand{
+        margin: auto;
+        width: 85%;
+        flex-direction: column;
+        padding: 3rem;
+        margin-bottom: 5rem;
+    }
+    .customers{
+        margin: 2rem 0;
+    }
+    .footLogo img{
+        width: 20%;
+
+    }
+    .footWrap{
+        flex-direction: column;
+        width: 85%;
+    }
+    .footRight{
+        flex-direction: column;
+        width: 60%;
+    }
+    .footLeft{
+        width: 100%;
+    }
+    li{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .footRight h4{
+        font-size: 18px;
+
+    }
+    .footLeft p{
+        font-size: 16px;
+        width: 80%;
+    }
+    .copyright{
+        text-align: center;
+        margin-top: 4rem;
+    }
+    .copyright p{
+        font-size: 16px;
+    }
+    
+}
 
     
