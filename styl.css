@@ -691,7 +691,7 @@ margin-top: 1rem;
     }
     .scheduleText h3{
         font-size: 30px;
-        line-height: 45%;
+        line-height: 45px;
         color: #034D82;
         width: 100%;
     }
@@ -754,7 +754,7 @@ margin-top: 1rem;
     }
 }
 
-@media (max-width: 425px){
+@media (max-width: 427px){
     .footLogo img{
         width: 100%;
     }
@@ -813,23 +813,20 @@ margin-top: 1rem;
         font-size: 14px;
     }
     .schedule{
-        flex-direction: column-reverse;
+        flex-direction: column;
         width: 100%;
-        margin: auto;
-        margin-top: 10rem;
-        
-        
+        margin-top: 2rem;
     }
     .scheduleText{
-        width: 85%;
-        margin: 0 auto; 
+        width: 85%; 
     }
         
     .scheduleText h3{
-        width: 90%;
-        line-height: 1.4;
+        width: 100%;
+        font-size: 14px;
+        /* line-height: 1.4;
         text-align: center;
-        font-size: clamp(20px, 4vw, 30px);
+        font-size: clamp(20px, 4vw, 30px); */
     }
     .scheduleText p{
         font-size: 16px;
