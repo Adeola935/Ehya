@@ -182,7 +182,7 @@ text-decoration: none;
 }
 .iphone{
     position: absolute;
-    width: 40%;
+    width: 30%;
 }
 .arrow{
     position: relative;
@@ -197,16 +197,18 @@ text-decoration: none;
     margin: auto;
     margin-top: 10rem;
     margin-bottom: 6rem;   
+    gap: 4rem;
 }
 
 .scheduleText{
     width: 50%;
 }
-.schedule h3{
+.scheduleText h3{
     font-family: DM Sans;
     font-size: 36px;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 52px;
+    letter-spacing: 0.30000001192092896px;
     color: #034D82;
     width: 80%;
 }
@@ -218,7 +220,7 @@ text-decoration: none;
     font-weight: 400;
     letter-spacing: 0.30000001192092896px;
     color: #90A3B4;
-    width: 100;
+    width: 100%;
 
 }
 
